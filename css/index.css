@@ -1,0 +1,35 @@
+body{
+	overflow: hidden;
+}
+.section-item{	
+	width:100%;
+	height:100%;
+}
+.section0{
+	background-color: #337ab7;
+}
+.section1{
+	background-color: #5cb85c;
+}
+.section2{
+	background-color: #5bc0de;
+}
+.section3{
+	background-color: #f0ad4e;
+}
+.show-section0{
+	transform: translateY(-0%);
+	-webkit-transform:translateY(-0%);
+}
+.show-section1{
+	transform: translateY(-100%);
+	-webkit-transform:translateY(-100%);
+}
+.show-section2{
+	transform: translateY(-200%);
+	-webkit-transform:translateY(-200%);
+}
+.show-section3{
+	transform: translateY(-300%);
+	-webkit-transform:translateY(-300%);
+}
